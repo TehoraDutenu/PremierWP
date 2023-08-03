@@ -1,0 +1,179 @@
+2023-08-03T09:14:05+00:00 CRITICAL syntax error, unexpected end of file dans /app/wp-content/themes/boutiqueern23/single-product.php à la ligne 2
+
+2023-08-03T09:38:13+00:00 CRITICAL Uncaught Error: Call to undefined function wc_product_thumbnail() in /app/wp-content/themes/boutiqueern23/single-product.php:8
+Stack trace:
+#0 /app/wp-includes/template-loader.php(106): include()
+#1 /app/wp-blog-header.php(19): require_once('/app/wp-include...')
+#2 /app/index.php(17): require('/app/wp-blog-he...')
+#3 {main}
+  thrown dans /app/wp-content/themes/boutiqueern23/single-product.php à la ligne 8
+
+2023-08-03T09:38:53+00:00 CRITICAL Uncaught Error: Call to undefined function woocommerce_product_thumbnails() in /app/wp-content/themes/boutiqueern23/single-product.php:8
+Stack trace:
+#0 /app/wp-includes/template-loader.php(106): include()
+#1 /app/wp-blog-header.php(19): require_once('/app/wp-include...')
+#2 /app/index.php(17): require('/app/wp-blog-he...')
+#3 {main}
+  thrown dans /app/wp-content/themes/boutiqueern23/single-product.php à la ligne 8
+
+2023-08-03T09:40:30+00:00 CRITICAL Uncaught Error: Call to undefined function woocommerce_product_thumbnails() in /app/wp-content/themes/boutiqueern23/single-product.php:8
+Stack trace:
+#0 /app/wp-includes/template-loader.php(106): include()
+#1 /app/wp-blog-header.php(19): require_once('/app/wp-include...')
+#2 /app/index.php(17): require('/app/wp-blog-he...')
+#3 {main}
+  thrown dans /app/wp-content/themes/boutiqueern23/single-product.php à la ligne 8
+
+2023-08-03T09:57:03+00:00 CRITICAL Uncaught Error: Call to a member function get_type() on string in /app/wp-content/plugins/woocommerce/includes/wc-template-functions.php:1358
+Stack trace:
+#0 /app/wp-content/themes/boutiqueern23/single-product.php(28): woocommerce_template_loop_add_to_cart()
+#1 /app/wp-includes/template-loader.php(106): include('/app/wp-content...')
+#2 /app/wp-blog-header.php(19): require_once('/app/wp-include...')
+#3 /app/index.php(17): require('/app/wp-blog-he...')
+#4 {main}
+  thrown dans /app/wp-content/plugins/woocommerce/includes/wc-template-functions.php à la ligne 1358
+
+2023-08-03T09:57:59+00:00 CRITICAL Uncaught Error: Call to a member function get_type() on string in /app/wp-content/plugins/woocommerce/includes/wc-template-functions.php:1358
+Stack trace:
+#0 /app/wp-content/themes/boutiqueern23/single-product.php(24): woocommerce_template_loop_add_to_cart()
+#1 /app/wp-includes/template-loader.php(106): include('/app/wp-content...')
+#2 /app/wp-blog-header.php(19): require_once('/app/wp-include...')
+#3 /app/index.php(17): require('/app/wp-blog-he...')
+#4 {main}
+  thrown dans /app/wp-content/plugins/woocommerce/includes/wc-template-functions.php à la ligne 1358
+
+2023-08-03T09:58:39+00:00 CRITICAL Uncaught Error: Call to a member function get_type() on string in /app/wp-content/plugins/woocommerce/includes/wc-template-functions.php:1358
+Stack trace:
+#0 /app/wp-content/themes/boutiqueern23/single-product.php(24): woocommerce_template_loop_add_to_cart()
+#1 /app/wp-includes/template-loader.php(106): include('/app/wp-content...')
+#2 /app/wp-blog-header.php(19): require_once('/app/wp-include...')
+#3 /app/index.php(17): require('/app/wp-blog-he...')
+#4 {main}
+  thrown dans /app/wp-content/plugins/woocommerce/includes/wc-template-functions.php à la ligne 1358
+
+2023-08-03T10:04:22+00:00 CRITICAL Uncaught Error: Call to a member function get_type() on string in /app/wp-content/plugins/woocommerce/includes/wc-template-functions.php:1358
+Stack trace:
+#0 /app/wp-content/themes/boutiqueern23/single-product.php(24): woocommerce_template_loop_add_to_cart()
+#1 /app/wp-includes/template-loader.php(106): include('/app/wp-content...')
+#2 /app/wp-blog-header.php(19): require_once('/app/wp-include...')
+#3 /app/index.php(17): require('/app/wp-blog-he...')
+#4 {main}
+  thrown dans /app/wp-content/plugins/woocommerce/includes/wc-template-functions.php à la ligne 1358
+
+2023-08-03T10:04:24+00:00 CRITICAL Uncaught Error: Call to a member function get_type() on string in /app/wp-content/plugins/woocommerce/includes/wc-template-functions.php:1358
+Stack trace:
+#0 /app/wp-content/themes/boutiqueern23/single-product.php(24): woocommerce_template_loop_add_to_cart()
+#1 /app/wp-includes/template-loader.php(106): include('/app/wp-content...')
+#2 /app/wp-blog-header.php(19): require_once('/app/wp-include...')
+#3 /app/index.php(17): require('/app/wp-blog-he...')
+#4 {main}
+  thrown dans /app/wp-content/plugins/woocommerce/includes/wc-template-functions.php à la ligne 1358
+
+2023-08-03T10:04:24+00:00 CRITICAL Uncaught Error: Call to a member function get_type() on string in /app/wp-content/plugins/woocommerce/includes/wc-template-functions.php:1358
+Stack trace:
+#0 /app/wp-content/themes/boutiqueern23/single-product.php(24): woocommerce_template_loop_add_to_cart()
+#1 /app/wp-includes/template-loader.php(106): include('/app/wp-content...')
+#2 /app/wp-blog-header.php(19): require_once('/app/wp-include...')
+#3 /app/index.php(17): require('/app/wp-blog-he...')
+#4 {main}
+  thrown dans /app/wp-content/plugins/woocommerce/includes/wc-template-functions.php à la ligne 1358
+
+2023-08-03T10:05:10+00:00 CRITICAL Uncaught Error: Call to a member function get_type() on string in /app/wp-content/plugins/woocommerce/includes/wc-template-functions.php:1358
+Stack trace:
+#0 /app/wp-content/themes/boutiqueern23/single-product.php(22): woocommerce_template_loop_add_to_cart()
+#1 /app/wp-includes/template-loader.php(106): include('/app/wp-content...')
+#2 /app/wp-blog-header.php(19): require_once('/app/wp-include...')
+#3 /app/index.php(17): require('/app/wp-blog-he...')
+#4 {main}
+  thrown dans /app/wp-content/plugins/woocommerce/includes/wc-template-functions.php à la ligne 1358
+
+2023-08-03T10:05:11+00:00 CRITICAL Uncaught Error: Call to a member function get_type() on string in /app/wp-content/plugins/woocommerce/includes/wc-template-functions.php:1358
+Stack trace:
+#0 /app/wp-content/themes/boutiqueern23/single-product.php(22): woocommerce_template_loop_add_to_cart()
+#1 /app/wp-includes/template-loader.php(106): include('/app/wp-content...')
+#2 /app/wp-blog-header.php(19): require_once('/app/wp-include...')
+#3 /app/index.php(17): require('/app/wp-blog-he...')
+#4 {main}
+  thrown dans /app/wp-content/plugins/woocommerce/includes/wc-template-functions.php à la ligne 1358
+
+2023-08-03T10:05:13+00:00 CRITICAL Uncaught Error: Call to a member function get_type() on string in /app/wp-content/plugins/woocommerce/includes/wc-template-functions.php:1358
+Stack trace:
+#0 /app/wp-content/themes/boutiqueern23/single-product.php(22): woocommerce_template_loop_add_to_cart()
+#1 /app/wp-includes/template-loader.php(106): include('/app/wp-content...')
+#2 /app/wp-blog-header.php(19): require_once('/app/wp-include...')
+#3 /app/index.php(17): require('/app/wp-blog-he...')
+#4 {main}
+  thrown dans /app/wp-content/plugins/woocommerce/includes/wc-template-functions.php à la ligne 1358
+
+2023-08-03T10:06:42+00:00 CRITICAL Uncaught Error: Call to a member function get_type() on string in /app/wp-content/plugins/woocommerce/includes/wc-template-functions.php:1358
+Stack trace:
+#0 /app/wp-content/themes/boutiqueern23/single-product.php(22): woocommerce_template_loop_add_to_cart()
+#1 /app/wp-includes/template-loader.php(106): include('/app/wp-content...')
+#2 /app/wp-blog-header.php(19): require_once('/app/wp-include...')
+#3 /app/index.php(17): require('/app/wp-blog-he...')
+#4 {main}
+  thrown dans /app/wp-content/plugins/woocommerce/includes/wc-template-functions.php à la ligne 1358
+
+2023-08-03T10:06:45+00:00 CRITICAL Uncaught Error: Call to a member function get_type() on string in /app/wp-content/plugins/woocommerce/includes/wc-template-functions.php:1358
+Stack trace:
+#0 /app/wp-content/themes/boutiqueern23/single-product.php(22): woocommerce_template_loop_add_to_cart()
+#1 /app/wp-includes/template-loader.php(106): include('/app/wp-content...')
+#2 /app/wp-blog-header.php(19): require_once('/app/wp-include...')
+#3 /app/index.php(17): require('/app/wp-blog-he...')
+#4 {main}
+  thrown dans /app/wp-content/plugins/woocommerce/includes/wc-template-functions.php à la ligne 1358
+
+2023-08-03T10:08:37+00:00 CRITICAL Uncaught Error: Call to a member function get_type() on string in /app/wp-content/plugins/woocommerce/includes/wc-template-functions.php:1358
+Stack trace:
+#0 /app/wp-content/themes/boutiqueern23/single-product.php(49): woocommerce_template_loop_add_to_cart()
+#1 /app/wp-includes/template-loader.php(106): include('/app/wp-content...')
+#2 /app/wp-blog-header.php(19): require_once('/app/wp-include...')
+#3 /app/index.php(17): require('/app/wp-blog-he...')
+#4 {main}
+  thrown dans /app/wp-content/plugins/woocommerce/includes/wc-template-functions.php à la ligne 1358
+
+2023-08-03T10:08:40+00:00 CRITICAL Uncaught Error: Call to a member function get_type() on string in /app/wp-content/plugins/woocommerce/includes/wc-template-functions.php:1358
+Stack trace:
+#0 /app/wp-content/themes/boutiqueern23/single-product.php(49): woocommerce_template_loop_add_to_cart()
+#1 /app/wp-includes/template-loader.php(106): include('/app/wp-content...')
+#2 /app/wp-blog-header.php(19): require_once('/app/wp-include...')
+#3 /app/index.php(17): require('/app/wp-blog-he...')
+#4 {main}
+  thrown dans /app/wp-content/plugins/woocommerce/includes/wc-template-functions.php à la ligne 1358
+
+2023-08-03T10:10:29+00:00 CRITICAL Uncaught Error: Call to a member function get_type() on string in /app/wp-content/plugins/woocommerce/includes/wc-template-functions.php:1358
+Stack trace:
+#0 /app/wp-content/themes/boutiqueern23/single-product.php(49): woocommerce_template_loop_add_to_cart()
+#1 /app/wp-includes/template-loader.php(106): include('/app/wp-content...')
+#2 /app/wp-blog-header.php(19): require_once('/app/wp-include...')
+#3 /app/index.php(17): require('/app/wp-blog-he...')
+#4 {main}
+  thrown dans /app/wp-content/plugins/woocommerce/includes/wc-template-functions.php à la ligne 1358
+
+2023-08-03T10:15:00+00:00 CRITICAL Uncaught Error: Call to a member function get_type() on string in /app/wp-content/plugins/woocommerce/includes/wc-template-functions.php:1358
+Stack trace:
+#0 /app/wp-content/themes/boutiqueern23/single-product.php(49): woocommerce_template_loop_add_to_cart()
+#1 /app/wp-includes/template-loader.php(106): include('/app/wp-content...')
+#2 /app/wp-blog-header.php(19): require_once('/app/wp-include...')
+#3 /app/index.php(17): require('/app/wp-blog-he...')
+#4 {main}
+  thrown dans /app/wp-content/plugins/woocommerce/includes/wc-template-functions.php à la ligne 1358
+
+2023-08-03T10:15:15+00:00 CRITICAL Uncaught Error: Call to a member function get_type() on string in /app/wp-content/plugins/woocommerce/includes/wc-template-functions.php:1358
+Stack trace:
+#0 /app/wp-content/themes/boutiqueern23/single-product.php(49): woocommerce_template_loop_add_to_cart()
+#1 /app/wp-includes/template-loader.php(106): include('/app/wp-content...')
+#2 /app/wp-blog-header.php(19): require_once('/app/wp-include...')
+#3 /app/index.php(17): require('/app/wp-blog-he...')
+#4 {main}
+  thrown dans /app/wp-content/plugins/woocommerce/includes/wc-template-functions.php à la ligne 1358
+
+2023-08-03T10:15:18+00:00 CRITICAL Uncaught Error: Call to a member function get_type() on string in /app/wp-content/plugins/woocommerce/includes/wc-template-functions.php:1358
+Stack trace:
+#0 /app/wp-content/themes/boutiqueern23/single-product.php(49): woocommerce_template_loop_add_to_cart()
+#1 /app/wp-includes/template-loader.php(106): include('/app/wp-content...')
+#2 /app/wp-blog-header.php(19): require_once('/app/wp-include...')
+#3 /app/index.php(17): require('/app/wp-blog-he...')
+#4 {main}
+  thrown dans /app/wp-content/plugins/woocommerce/includes/wc-template-functions.php à la ligne 1358
+

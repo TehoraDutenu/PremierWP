@@ -37,6 +37,16 @@
 
         <h5>Archives</h5>
         <!-- ici on affiche les archives des posts -->
-        <?php wp_get_archives('type=monthly'); ?>
+        <p>
+            <?php wp_get_archives('type=monthly'); ?>
+        </p>
+        <?php
+        // affichage du widget dans la sidebar
+        if (is_active_sidebar('new_widget_area')) : ?>
+            <div id="secondary-sidebar" class="new-widget-area">
+                <?php dynamic_sidebar("new-widget-area") ?>
+            </div>
+
+        <?php endif; ?>
     </div>
 </div>

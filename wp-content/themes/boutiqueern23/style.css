@@ -1,0 +1,177 @@
+/* 
+Theme Name: Boutique Ern23
+Author: Ern23 Team
+Description: Thème pour la boutique de l'Ern23
+Version: 1.0
+Tags: bootstrap, responsive, html5, css3, jquery, php, wordpress, e-commerce (des mots clés pour référencer notre thème)
+*/
+
+/* -- STYLE POUR LE MENU AVEC SOUS-CATÉGORIES -- */
+ul.custom-menu {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul.custom-menu li {
+    margin-right: 20px;
+    position: relative;
+}
+
+ul.custom-menu li:last-child {
+    margin-right: 0;
+}
+
+ul.custom-menu li a {
+    padding: 10px;
+    color: #333;
+    text-decoration: none;
+    display: block;
+}
+
+/* -- Style pour les sous menus -- */
+ul.custom-menu ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left:0;
+    min-width: 200px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, .2);
+    z-index: 999;
+}
+
+ul.custom-menu ul li {
+    position: relative;
+}
+
+ul.custom-menu ul li a {
+    padding: 10px;
+    color: #333;
+    text-decoration: none;
+    display: block;
+}
+
+/* -- Style pour le dépliage des sous-menus -- */
+ul.custom-menu li:hover > ul{
+    display: block;
+    top: 100%;
+    left: 0;
+}
+
+
+/* -- Menu Footer -- */
+
+footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+#menu-footer-menu {
+    list-style: none;
+    text-align: right;
+}
+
+#menu-footer-menu a {
+    text-decoration: none;
+    color: white;
+}
+
+/* -- Style pour l'entête */
+.site-header {
+    background-color: #f2f2f2;
+    padding: 10px 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: 100vw;
+}
+
+/* -- STYLE POUR LES PRODUITS -- */
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.product-container {
+    flex: 1 0 calc(33.33% -20px); /* 3 produits par ligne, mois l'espace entre les produits */
+}
+
+.image_prod {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+
+/* -- Style pour le bouton "ajouter au panier" -- */
+.add_to_cart_button {
+    background-color: green;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    color: #fff;
+    display: inline-block;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.add_to_cart_button:hover {
+    background-color: #fff;
+    color: green;
+}
+
+/* -- Style pour le sélecteur de quantité -- */
+.qty {
+    width: 50px;
+    height: 30px;
+    text-align: center;
+    margin-left: 20px;
+}
+.quantity > label {
+    display: none;
+}
+
+
+.image_desc {
+    width: 100%;
+    height: 400px;
+    object-fit: contain;
+}
+
+.title_prod {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin: 20px 0;
+    color: blue;
+}
+
+.price_prod {
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 20px 0;
+    color: blue;
+    margin-right: 30px;
+}
+
+cite.fn > a {
+    font-weight: bold;
+    margin: 5px;
+    color: blue;
+}
+
+.container_com {
+    border: 1px solid blue;
+    padding: 10px;
+    margin: 10px;
+}
+
+.container_com ul {
+    list-style: none;
+}
+
+.text_com {
+    font-style: italic;
+    margin-left: 10px;
+}
